@@ -1,0 +1,177 @@
+.head{
+	height: 40px;
+	width: 100%;
+	background: #333333;
+	margin: 0 auto;
+
+}
+.head-left{
+	height: 100%;
+	width: 650px;
+	float: left;
+}
+.head-right{
+	height: 100%;
+	width: 290px;
+	float: right;
+}
+.text-a{
+	font-size: 14px;
+	color: #9e9e89;
+	float: left;
+	line-height: 40px;
+}
+.gun{
+	font-size: 14px;
+	color: #3d3935;
+	float: left;
+	line-height: 40px;
+	margin: 0 6px;
+}
+.head-bacf{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+}
+.a{
+	height: 40px;
+	width: 160px;
+	float: left;
+}
+.aa{
+	font-size: 14px;
+	color: #b0b0b0;
+	line-height: 40px;
+	float: left;
+}
+.ab{
+	font-size: 14px;
+	color: #423c37;
+	line-height: 40px;
+	float: left;
+	margin: 0 6px;
+}
+.b{
+	width: 130px;
+	height: 40px;
+	float: right;
+	line-height: 100%;
+	text-align: center;
+	background: #424242;
+}
+.ba{
+	font-size: 14px;
+	color: #b0b0b0;
+	line-height: 40px;
+}
+/* 轮播图 */
+	
+.big-box{
+	width: 1226px;
+	height: 460px;
+	margin: 0 auto;
+	background: #FF0000;
+}
+.big-box-picture{
+	width: 1226px;
+	height: 460px;
+	position: relative;
+}
+.big-box .big-box-picture li{
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.big-box .big-box-picture>ul>li img{
+	width: 1226px;
+	height: 460px;
+}
+
+
+
+/* 轮播图结束 */
+/* 推荐开始 */
+.remmond{
+	width: 1226px;
+	height: 358px;
+	background: yellow;
+	margin: 0 auto;
+}
+.remmond-top{
+	height: 58px;
+	background: red;
+	width: 1226px;
+}
+.le{
+	width: 200px;
+	height: 58px;
+	background: orange;
+	float: left;
+}
+.fast-left{
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333333;
+	float: left;
+}
+.ri{
+	width: 200px;
+	height: 58px;
+	background: orange;
+	float: right;
+}
+.btn{
+	width: 71px;
+	height: 24px;
+	float: right;
+	margin-top: 17px;
+	border: 1px solid #e7e7e7;
+	box-sizing: border-box;
+}
+.ri-btn-left{
+	width: 35px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #e7e7e7;
+	box-sizing: border-box;
+	color: #e9e9e9;
+	font-size: 12px;
+}
+.ri-btn-right{
+	width: 34px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	float: left;
+	color: #e9e9e9;
+	font-size: 12px;
+}
+.remmond-bot{
+	width: 1226px;
+	height: 300px;
+	background: blue;
+	overflow: hidden;
+}
+ul li{
+	list-style: none;
+}
+.remmond-bot>ul{
+	background: #333333;
+	width: calc(1226px * 3);
+	height: 100%;
+}
+.remmond .remmond-bot li{
+	width: 234px;
+	height: 100%;
+	background: #B0B0B0;
+	float: left;
+	text-align: center;
+	margin-left: 14px;
+}
+.remmond .remmond-bot .blo{
+	margin: 0;
+}
+/* 推荐结束 */
