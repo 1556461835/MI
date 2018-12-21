@@ -71,11 +71,13 @@
 	height: 460px;
 	margin: 0 auto;
 	background: #FF0000;
+	position: relative;
+
 }
 .big-box-picture{
 	width: 1226px;
 	height: 460px;
-	position: relative;
+
 }
 .big-box .big-box-picture li{
 	position: absolute;
@@ -86,39 +88,124 @@
 	width: 1226px;
 	height: 460px;
 }
-
-
+.big-box-list{
+	width: 234px;
+	height: 460px;
+	background: rgba(0,0,0,0.5);
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 0;
+}
+.big-box-list ul{
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.big-box-list ul li{
+	height: 42px;
+	width: 100%;
+	color: #FFFF;
+	cursor: pointer;
+	line-height: 42px;
+}
+.big-box-list .zuo{
+	float: left;
+	height: 100%;
+	line-height: 42px;
+	margin-left: 30px;
+}
+.big-box-list .you{
+	float: right;
+	height: 100%;
+	line-height: 42px;
+	margin-right: 20px;
+	
+}
+.flag{
+	position: absolute;
+	width: 41px;
+	height: 69px;
+	background: #000;
+	top: 0;
+	bottom: 0;
+	margin: auto 0;
+}
+.left-arrow{
+	left: 234px;
+	background-image: url(../img/arrow.png);
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px
+}
+.right-arrow{
+	right: 0;
+	background-image: url(../img/arrow.png);
+	background-position:-42px 0;
+	background-repeat: no-repeat;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+.point-pox{
+	height: 10px;
+	position: absolute;
+	right: 0;
+	bottom: 25px;
+}
+.point-pox>div{
+	float: right;
+	margin-right: 20px;
+}
+.point-pox>div>div{
+	width: 10px;
+	height: 10px;
+	background: rgba(0,0,0,0.6);
+	float: left;
+	margin-left: 10px;
+	border-radius: 50%;
+	box-sizing: border-box;
+	cursor: pointer;
+	border: 2px solid rgba(0,0,0,0.2);
+}
+.point-pox>div .small{
+	background: rgba(0,0,0,0);
+	border: 2px solid rgba(0,0,0,0.5);
+}
 
 /* 轮播图结束 */
+main{
+	width: 100%;
+	height: 1000px;
+	background: #f5f5f5;
+}
+ul, li{
+	list-style: none;
 /* 推荐开始 */
 .remmond{
 	width: 1226px;
-	height: 358px;
-	background: yellow;
+	height: 378px;
 	margin: 0 auto;
+	background: red;
 }
 .remmond-top{
 	height: 58px;
-	background: red;
 	width: 1226px;
 }
 .le{
 	width: 200px;
 	height: 58px;
-	background: orange;
-	float: left;
 }
 .fast-left{
 	font-size: 22px;
-	font-weight: 200;
+    weight: 200px;
+	height: 58px;
 	line-height: 58px;
-	color: #333333;
+	color: #3f3f3f;
 	float: left;
 }
 .ri{
 	width: 200px;
 	height: 58px;
-	background: orange;
 	float: right;
 }
 .btn{
@@ -151,15 +238,11 @@
 }
 .remmond-bot{
 	width: 1226px;
-	height: 300px;
-	background: blue;
+	height: 320px;
 	overflow: hidden;
 }
-ul li{
-	list-style: none;
 }
 .remmond-bot>ul{
-	background: #333333;
 	width: calc(1226px * 3);
 	height: 100%;
 }
@@ -173,5 +256,30 @@ ul li{
 }
 .remmond .remmond-bot .blo{
 	margin: 0;
+}
+.remmond .remmond-bot li img{
+	width: 140px;
+	height: 140px;
+	margin-top: 40px;
+}
+.remmond .introduce{
+	padding: 0 20px;
+	box-sizing: border-box;
+	margin-top: 15px;
+	font-size: 14px;
+	color: #454545;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.remmond .price{
+	color: #ff6700;
+	font-size: 16px;
+	margin-top: 15px;
+}
+.remmond .comment{
+	font-size: 12px;
+	margin-top: 15px;
+	color: # ;
 }
 /* 推荐结束 */
