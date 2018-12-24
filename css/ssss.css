@@ -492,6 +492,24 @@ a{
 	height: 340px;
 	text-align: center;
 	overflow: hidden;
+	position: relative;
+}
+.shangouyin{
+	width: 978px;
+	height: 340px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.shangouyin .yinying{
+	background: rgba(0,0,0,0.05);
+	margin-right: 14px;
+	width: 234px;
+	height: 340px;
+	float: left;
+}
+.shangouyin .shangqu{
+	margin: 0;
 }
 .zhuan{
 	width: 2976px;
