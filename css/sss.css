@@ -7,20 +7,14 @@
 }
 @font-face {
   font-family: 'iconfont';  /* project id 974149 */
-  src: url('//at.alicdn.com/t/font_974149_2n4a39c20i.eot');
-  src: url('//at.alicdn.com/t/font_974149_2n4a39c20i.eot?#iefix') format('embedded-opentype'),
-  url('//at.alicdn.com/t/font_974149_2n4a39c20i.woff') format('woff'),
-  url('//at.alicdn.com/t/font_974149_2n4a39c20i.ttf') format('truetype'),
-  url('//at.alicdn.com/t/font_974149_2n4a39c20i.svg#iconfont') format('svg');
+  src: url('//at.alicdn.com/t/font_974149_vjtbs0ciddj.eot');
+  src: url('//at.alicdn.com/t/font_974149_vjtbs0ciddj.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_974149_vjtbs0ciddj.woff') format('woff'),
+  url('//at.alicdn.com/t/font_974149_vjtbs0ciddj.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_974149_vjtbs0ciddj.svg#iconfont') format('svg');
 }
 .iconfont{
 	font-family: "iconfont";
 a{
 	text-decoration: none;
-}
-ul,li{
-	list-style: none;
-}
-1226    438高    
-top58高   文字22px        右71*24    巨鼎17px
-   bottom高height:caic(100% - 58px)计算属性      
+}     
