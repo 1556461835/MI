@@ -214,18 +214,24 @@ a{
 	color: #333;
     margin-top: 0px;
 }
-.big-box-list .maishouji .big-box-list-col1 li{
+.big-box-list .maishouji .big-box-list-col1 .tiaozhuan{
 	width: 248px;
 	height: 76.666px;
 	line-height: 76.666px;
 }
-.big-box-list .maishouji .big-box-list-col1>li>img{
+.big-box-list .maishouji .big-box-list-col1 .tiaozhuan a>img{
 	width: 40px;
 	height: 40px;
 	float: left;
 	margin: 13.333px 20px 13.333px 30px;
 }
-.big-box-list .maishouji .big-box-list-col1 li .miaoshu{
+.big-box-list .maishouji .big-box-list-col1 .tiaozhuan>img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 13.333px 20px 13.333px 30px;
+}
+.big-box-list .maishouji .big-box-list-col1 .tiaozhuan .miaoshu{
 	float: left;
 	font-size: 14px;
 	color: #333;
