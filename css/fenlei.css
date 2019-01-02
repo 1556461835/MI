@@ -1,0 +1,265 @@
+/* 内容1 */
+.breadcrumbs{
+    height: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    background: #f5f5f5;
+}
+.content{
+	width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+	color: #616161;
+}
+.content a{
+	color: #616161;
+}
+/* 内容1结束 */
+/* 内容2 */
+.filter{
+	width: 1226px;
+	height: 81px;
+	padding: 18px 0;
+	box-sizing: border-box;
+	margin: 0 auto;
+}
+.filter-first{
+	width: 1226px;
+    height: 45px;
+    overflow: hidden;
+}
+.filter-first .nen{
+	left: 0;
+    top: 11px;
+    width: 72px;
+    color: #b0b0b0;
+	display: inline-block;
+	float: left;
+}
+.filter-first div{
+	width: 172px;
+    padding: 12px 0;
+	color: #424242;
+	display: inline-block;
+	float: left;
+
+}
+.filter-first div:nth-child(3){
+	color: #ff6700;
+}
+/* 内容2结束 */
+/* 内容3 */
+.content3{
+	background: #f5f5f5;
+	padding: 20px 0 100px;
+	overflow: hidden;
+}
+.content-box{
+	width: 1226px;
+	margin: 0 auto;
+}
+.content-box-top{
+	height: 20px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.content-box-top-le{
+	float: left;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.content-box-top-le li{
+	float: left;
+    padding: 0 30px;
+    border-left: 1px solid #e0e0e0;
+    line-height: 20px;
+}
+.content-box-top-le .le-one{
+	padding-left: 0;
+    border-left: 0;
+	color: #FF6700;
+}
+.le-two i{
+	font-size: 16px;
+    line-height: 16px;
+    vertical-align: -1px;
+}
+.content-box-top-rg{
+	float: right;
+    height: 20px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.content-box-top-rg li{
+	float: left;
+    margin-left: 30px;
+	color: #424242;
+}
+.checkbox{
+	display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #fff;
+    vertical-align: -2px;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center
+}
+.content-box-botto{
+	width: 1226px;
+}
+.bottom-box{
+	width: 1240px;
+}
+.bottom-box-item{
+	float: left;
+    width: 296px;
+    height: 383px;
+    padding-top: 47px;
+    margin-right: 14px;
+    margin-bottom: 14px;
+    text-align: center;
+    background: #fff;
+}
+.figur-img{
+	width: 200px;
+    height: 200px;
+    margin: 0 auto 16px;
+}
+.biaoti{
+	margin: 18px 0 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.bottom-box-item .thumbs{
+	width: 100%;
+    height: 36px;
+    overflow: hidden;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	margin-top: 18px;
+}
+.thumbs>div{
+    width: 34px;
+    height: 34px;
+    margin: 0 4px;
+    border: 1px solid #e0e0e0;
+    cursor: pointer;
+	float: left;
+}
+.flags{
+    width: 100%;
+    max-height: 40px;
+    font-size: 12px;
+    text-align: left;
+    overflow: hidden;
+	margin-top: 27px;
+}
+.flags .flagss{
+	height: 18px;
+    padding: 1px 20px;
+    color: #fff;
+}
+.flags .gift{
+	background-color: #2196f3;
+}
+.flags .new{
+	background-color: #83c44e;
+}
+/* 内容结束3 */
+/* 内容4 */
+.neirong3-top{
+	position: relative;
+    margin: 0;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #757575;
+    border-top: 1px solid #e0e0e0;
+}
+.neirong3-top span{
+	position: absolute;
+    top: -20px;
+    left: 372px;
+    height: 40px;
+    width: 482px;
+    line-height: 40px;
+    text-align: center;
+    display: block;
+    background-color: #f5f5f5;
+}
+.neirong3-bottem-tu{
+	width: 1226px;
+	height: 320px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.xm-couse{
+	width: 2480px;
+    margin-left: 0px;
+	list-style-type: none;
+}
+.xm-couse li{
+	float: left;
+    width: 234px;
+	margin-right: 14px;
+	margin-bottom: 14px;
+    height: 300px;
+    background-color: #fff;
+    text-align: center;
+}
+.xm-couse-tu{
+	padding: 40px 0 15px;
+    height: 145px;
+}
+.xm-couse-tu img{
+	width: 140px;
+	height: 140px;
+}
+.xm-couse-name{
+	margin-bottom: 10px;
+    height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.xm-couse-price{
+	margin-bottom: 10px;
+    color: #ff6700;
+}
+.xm-couse-pingjia{
+	 color: #757575;
+}
+.neirong3-bottem-quan{
+	text-align: center;
+}
+.neirong3-bottem-quan-box{
+	padding: 0;
+    margin-top: 0;
+    list-style: none;
+}
+.neirong3-bottem-quan-box .quan1{
+	display: inline-block;
+	cursor: pointer;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #f5f5f5;
+    border-radius: 6px;
+    text-align: left;
+    overflow: hidden;
+    background-color: #b0b0b0
+}
+.neirong3-bottem-quan-box .quan1:nth-child(1){
+	border: 2px solid #ff6700;
+	background: #fff;
+}
+/* 内容4结束 */

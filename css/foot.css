@@ -1,0 +1,148 @@
+/* 底部 */
+.contain{
+	height: ;
+	width: 1226px;
+	margin: 0 auto;
+}
+.contain-top{
+	height: 80px;
+	width: 100%;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 27px 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.contain-top-ttp{
+	width: 1226px;
+	height: 27px;
+}
+.contain-top ul li{
+	float: left;
+    width: 19.8%;
+    height: 25px;
+    border-left: 1px solid #e0e0e0;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+	display: flex;
+	justify-content: center;
+}
+.contain-top ul li:nth-child(1){
+	border-left: 0;
+}
+.contain-top-ttp i{
+	margin-right: 6px;
+    font-size: 24px;
+    line-height: 24px;
+}
+.contain-top-ttp p{
+	font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+.contain-bottom{
+	width: 1226px;
+	height: 123px;
+	padding: 40px 0;
+}
+.clo-links{
+	float: left;
+    width: 160px;
+    height: 112px;
+    margin: 0;
+}
+dt{
+	margin: -1px 0 26px;
+    font-size: 14px;
+    line-height: 1.25;
+    color: #424242;
+}
+dd{
+	margin: 10px 0 0;
+    font-size: 12px;
+}
+.clo-rg{
+	float: right;
+    width: 251px;
+    height: 112px;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+    color: #616161;
+}
+.phone-num{
+	margin: 0 0 5px;
+    font-size: 22px;
+    line-height: 1;
+    color: #ff6700;
+}
+.clo-rg-bot{
+	width: 118px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+	border-color: #ff6700;
+    background: #fff;
+    color: #ff6700;
+}
+/* 底部结束 */
+/* 底部2 */
+.site-info{
+	height: 232px;
+	padding: 30px 0;
+    font-size: 12px;
+    background: #fafafa;
+}
+.container{
+	width: 1226px;
+	height: 123px;
+    margin-right: auto;
+    margin-left: auto;
+	position: relative;
+}
+.logo{
+	    width: 57px;
+    height: 57px;
+    margin-right: 10px;
+    background: url(https://s01.mifile.cn/i/logo-footer.png?v2) no-repeat 50% 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.info-text{
+	color: #b0b0b0;
+    padding-left: 67px;
+}
+.site-info .info-text p{
+	margin: 0;
+    line-height: 18px;
+}
+.site-info .info-text .sits a{
+	color: #757575;
+}
+.site-info .info-text .sep{
+	margin: 0 .25em;
+    font-family: sans-serif;
+}
+.info-text a{
+	color: #b0b0b0;
+}
+.info-links{
+    height: 28px;
+    margin: 4px 0 0;
+    padding-left: 67px;
+}
+.info-links img{
+	width: auto;
+    height: 28px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+}
+.slogan{
+	clear: both;
+    margin: 30px auto 0;
+    width: 267px;
+    height: 19px;
+    background: url(../i/slogan2016.png) no-repeat center 0;
+	color: #b0b0b0;
+}
+/* 底部结束 */
