@@ -910,19 +910,42 @@ ul,li{
 .neirong{
 	width: 1226px;
 	height: 478px;
-	background: #000000;
 	margin: 20px auto 20px auto;
 }
 .on{
 	width: 1226px;
 	height: 58px;
-	background: red;
+	line-height: 58px;
 }
 .under{
 	width: 1226px;
 	height: 420px;
-	background: yellow;
 }
+.neironghezi{
+	overflow: hidden;
+	width: 1226px;
+	height: 420px;
+}
+.under .neironghezi .neironghezi-item{
+	width: 296px;
+	margin-right: 14px;
+	background: yellow;
+	float: left;
+    height: 374px;
+    padding: 45px 0 0;
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 14px;
+}
+.under .neironghezi .lg{
+	margin: 0;
+}
+.under .neironghezi .neironghezi-item .titllee{
+	margin: 0 10px 18px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
 /* 内容 */
 /* 视频 */
 .video{
