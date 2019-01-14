@@ -1,0 +1,246 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 头部 */
+.sign-h{
+	width: 1130px;
+	margin: 0 auto;
+}
+.sign-logo{
+	width: 200px;
+	height: 98px;
+	background: url(https://account.xiaomi.com/static/res/7f6f2f5/account-static/respassport/acc-2014/img/mistore_logo.png)no-repeat;
+}
+/* 头部结束 */
+/* 中间 */
+.sign-mi{
+	width: 100%;
+	height: 588px;
+	position: absolute;
+	top: 98px;
+	left: 0;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.wrap{
+	padding-bottom: 0;
+    position: relative;
+}
+.wrap-box{
+	padding-top: 32px;
+	width: 1130px;
+    margin: 0 auto;
+}
+.layout{
+	width: 410px;
+    height: 524px;
+    margin: 0 0 0 auto;
+    font-size: 14px;
+    z-index: 4;
+    position: relative;
+	background: #fff;
+}
+.layout-box{
+	display: block;
+	padding-bottom: 0
+}
+.laybox1-on{
+	padding: 27px 0 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #e0e0e0;
+}
+
+.laybox1-on .now{
+	color: #f56600;
+}
+.nate-line:hover{
+	color: #f56600;
+}
+.laybox1-on .line{
+	width: 1px;
+    height: 24px;
+    margin: 0 35px 0 42px;
+}
+.login_area{
+	width: 348px;
+    padding-bottom: 0;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.item-account{
+	width: 306px;
+	height: 22px;
+    line-height: 22px;
+    padding: 13px 16px 13px 14px;
+    display: block;
+	border: 1px solid #e0e0e0;
+	margin-top: 10px;
+}
+.laybox3{
+	height: 442px;
+    width: 410px;
+    /* display: none; */
+	position: absolute;
+    z-index: 98;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.pannel{
+	width: 100%;
+    height: 50%;
+    display: -webkit-box;
+	-webkit-box-align: center;
+	-webkit-box-pack: center
+}
+.ercode{
+	width: 100%;
+	height: 100%;
+    position: static;
+    margin: 0;
+}
+.code{
+	text-align: center;
+	height: 100%;
+}
+.laybox3 .code img{
+	width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -90px;
+    margin-left: -90px;
+    overflow: hidden;
+}
+.custom-sub{
+	padding-top: 100px;
+    font-size: 14px;
+    display: block;
+	text-align: center;
+}
+.custom-sub span{
+	padding: 0 5px;
+    color: #ff6700;
+	margin: 0;
+}
+
+.btns_bg{
+	padding-top: 10px;
+}
+.btnadpt{
+	background-color: #ef5b00;
+    width: 338px;
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+	border: 0;
+}
+.shuru-under{
+	margin-top: -5px;
+}
+.sms-link{
+	float: left;
+	color: #ef5b00;
+    border: 0 none;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+}
+.rg-item{
+	padding-top: 0;
+    color: #999;
+	float: right;
+	text-align: center;
+}
+.rg-item .liJi:hover{
+	color: #ff6700;
+}
+.rg-item span{
+	color: #999;
+	font-size: 14px;
+}
+.rg-item-line{
+	padding: 0 5px;
+}
+.signMode{
+	padding-top: 0;
+    position: absolute;
+    top: 400px;
+	left: 0;
+    width: 100%;
+	text-align: center;
+}
+.signMode-top{
+	border-top: 1px solid #e0e0e0;
+    padding-top: 10px;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+.signMode_top-txt{
+    font-size: 14px;
+    color: #bbb;
+    margin: 0 auto;
+    text-align: center;	
+}
+.signMode-bt{
+	padding-top: 3px;
+	text-align: center;
+}
+.signMode-bt .iconfont{
+	margin: 0 17px;
+	width: 30px;
+    height: 30px;
+    display: inline-block;
+	font-size: 30px;
+}
+.signMode-bt i:nth-child(1){
+	color: #0288d1;
+}
+.signMode-bt i:nth-child(2){
+	color: #d32f2f;
+}
+.signMode-bt i:nth-child(3){
+	color: #0ae;
+}
+.signMode-bt i:nth-child(4){
+	color: #00d2ad;
+}
+/* 中间结束 */
+/* 底部 */
+.sign-bt{
+	background: #fff;
+    margin-top: 100px;
+	text-align: center;
+	font-size: 14px;
+	color: #bbb;
+	height: 80px;
+}
+.sign_btTop{
+	text-align: center;
+	display: block;
+    height: 21px;
+	margin: 0 460px;
+}
+.sign_btTop li{
+	border-right: 1px solid #bbb;
+	padding: 0 10px;
+	float: left;
+	text-align: center;
+}
+.sign_btTop li:nth-child(5){
+	border: 0;
+}
+
+/* .sign-bt p{
+	display: block;
+} */
+	
+/* 底部结束 */

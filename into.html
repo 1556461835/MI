@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/sss.css">
+		<link rel="stylesheet" type="text/css" href="css/signIn.css"/>
+		<link rel="shortcut icon" href="img/xiaomi,logo.ico">
+		<title>登录</title>
+	</head>
+	<body>
+		<!-- 头部 -->
+		<div class="sign-h">
+			<div class="sign-logo"></div>
+		</div>
+		<!-- 头部结束 -->
+		<!-- 中间 -->
+		<div class="wrap">
+			<div class="wrap-box">
+				<div class="layout">
+					<!-- 表单输入登录 -->
+					<div class="layout-box">
+						<div class="laybox1" style="display: block;">
+							<div class="laybox1-on">
+								<span class="nate-line now">帐号登录</span>
+								<span class="line">|</span>
+								<span class="nate-line">扫码登录</span>
+							</div>
+						</div>
+						<div class="laybox2 zhihuan" style="display: block;">
+							<div>
+								<div class="login_area">
+									<form class="shuru">
+										<div class="input_xinxi">
+											<input type="text" class="item-account" placeholder="邮箱/手机号码/小米ID">
+											<input type="password" class="item-account" placeholder="密码">
+										</div>
+										<div class="btns_bg">
+											<input class="btnadpt" type="submit" value="登录">
+										</div>
+										<div class="shuru-under">
+											<span class="sms-link">手机短信登录/注册</span>
+											<div class="rg-item">
+												<span class="liJi">立即注册</span>
+												<span class="rg-item-line">|</span>
+												<span class="liJi">忘记密码？</span>
+											</div>
+											
+										</div>
+										<div class="signMode">
+											<fieldset class="signMode-top">
+												<legend align="center" class="signMode_top-txt">其他方式登录</legend>
+											</fieldset>
+											<div class="signMode-bt">
+												<i class="iconfont">&#xe67a;</i>
+												<i class="iconfont">&#xe610;</i>
+												<i class="iconfont">&#xe67e;</i>
+												<i class="iconfont">&#xe609;</i>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="laybox3 zhihuan" style="display: none;">
+							<div class="pannel">
+								<div class="ercode">
+									<div class="code">
+										<img src="img/erweima.png" alt="">
+									</div>
+								</div>
+							</div>
+							<div class="custom-sub">
+								<p>使用<span>小米商城APP</span>扫一扫</p>
+								<p>小米手机「设置」&gt;「小米账号」扫码登录</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="sign-mi" style="background-image: url(https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/af1d661322b54160a34bd319a671b6d9.jpg);">
+		</div>
+		<!-- 中间结束 -->
+		<!-- 底部 -->
+		<footer class="sign-bt">
+			<div class="sign_btTop">
+				<ul>
+					<li>简体</li>
+					<li>繁体</li>
+					<li>English</li>
+					<li>常见问题</li>
+					<li>隐私政策</li>
+				</ul>
+			</div>
+			<div>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</div>
+		</footer>
+		<!-- 底部结束 -->
+	</body>
+	<script>
+		let olList =document.querySelectorAll(".nate-line");
+		let btList =document.querySelectorAll(".zhihuan")
+		olList.forEach(function(val,index){
+			val.onclick=function(){
+				btList.forEach(function(val,key){
+					btList[key].style.display="none";
+					olList[key].style.color="#e0e0e0"
+				})
+			btList[index].style.display="block";
+			olList[index].style.color="#ff6700"
+			}
+			
+		})
+	</script>
+</html>
