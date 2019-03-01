@@ -87,10 +87,12 @@
 .xm-buy-box .clearfix .pro-choose .img-icon .img-left{
 	width: 560px;
 	height: 560px;
-	background: red;
 	position: absolute;
 	top: 0;
 	left: 0;
+}
+.xm-buy-box .clearfix .pro-choose .img-icon .img-left .active{
+	opacity: 1;
 }
 .xm-buy-box .clearfix .pro-choose .img-icon .img-left>ul>li{
 	width: 100%;
@@ -99,6 +101,7 @@
 	top: 0;
 	left: 0;
 	list-style-type: none;
+	opacity: 0;
 }
 .xm-buy-box .clearfix .pro-choose .img-icon .img-left>ul>li img{
 	width: 100%;
@@ -144,7 +147,7 @@
  	left: 0;
  	border-top-right-radius: 3px;
  	border-bottom-right-radius: 3px;
- 	background-image: url(../img/icon-slides.png);
+ 	background-image: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png);
 	background-position: 83px 0;
 	position: absolute;
  }
@@ -155,7 +158,7 @@
  	right: 0;
  	border-top-left-radius: 3px;
  	border-bottom-left-radius: 3px;
- 	background-image: url(../img/icon-slides.png);
+ 	background-image: url(https://i1.mifile.cn/f/i/2014/cn/icon/icon-slides.png);
  	background-position: -126px 0;
  	background-repeat: no-repeat;
 	position: absolute;
